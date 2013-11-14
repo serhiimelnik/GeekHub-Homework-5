@@ -1,0 +1,11 @@
+melnik_homework_index:
+    pattern:  /index
+    defaults: { _controller: MelnikHomeworkBundle:Default:index }
+
+melnik_homework_about:
+    pattern:  /about
+    defaults: { _controller: MelnikHomeworkBundle:Default:about }
+
+melnik_homework_contact:
+    pattern:  /contact
+    defaults: { _controller: MelnikHomeworkBundle:Default:contact }

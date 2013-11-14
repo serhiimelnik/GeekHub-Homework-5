@@ -1,0 +1,12 @@
+{% extends "MelnikHomeworkBundle::layout.html.twig" %}
+
+{% block body %}
+    {{ parent() }}
+    <div class="container">
+        <div class="starter-template">
+            {{ render(controller('MelnikHomeworkBundle:Default:carInfo')) }}
+            {{ include('MelnikHomeworkBundle:Default:carInfo.html.twig') }}
+            {{ include('MelnikHomeworkBundle:Default:date.html.twig') }}
+        </div>
+    </div>
+{% endblock %}

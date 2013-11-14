@@ -1,0 +1,25 @@
+{% if info is defined %}
+    <h2>Car info</h2>
+    <table>
+        <tr>
+            <td><strong>Make</strong></td>
+            <td>{{ info.make }}</td>
+        </tr>
+        <tr>
+            <td><strong>Model</strong></td>
+            <td>{{ info.model }}</td>
+        </tr>
+        <tr>
+            <td><strong>Price</strong></td>
+            <td>{{ info.price }}</td>
+        </tr>
+        <tr>
+            <td><strong>Body Style</strong></td>
+            <td>{{ info.bodyStyle }}</td>
+        </tr>
+        <tr>
+            <td><strong>Color</strong></td>
+            <td>{{ info.color }}</td>
+        </tr>
+    </table>
+{% endif %}
